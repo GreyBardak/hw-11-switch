@@ -24,13 +24,12 @@ var yourBrowser = "Chrome";
     break;
 	case 'Firef' :
 	case 'Opera' :
-    case 'Chrome' : 
+        case 'Chrome' : 
+	case 'Safari' :
     console.log(webKitLog + yourBrowser);
     alert('We support your browser = Chrome')
     break;
-    case 'Safari' :
+    default : 
     console.log(otherLog);
     alert('We hope your specific browser works fine')
-	break;
-    default : 
-	console.log('SWITCH SOLUTION : ' , switchResult);}
+    console.log('SWITCH SOLUTION : ' , switchResult);}
